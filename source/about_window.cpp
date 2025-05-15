@@ -173,7 +173,7 @@ AboutWindow::AboutWindow(wxWindow* parent) :
 	game_panel(nullptr) {
 	wxString about;
 
-	about << "Mythbound Map Editor\n";
+	about << "ADream Map Editor\n";
 	about << "(based on OTAcademy's Map Editor)\n\n";
 	about << "This program is a map editor for game servers\nthat derivied from OpenTibia project.\n\n";
 
