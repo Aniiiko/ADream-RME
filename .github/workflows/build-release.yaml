@@ -86,7 +86,9 @@ jobs:
           vcpkgGitCommitId: ${{ env.VCPKG_GIT_COMMIT_ID }}
 
       - name: Get latest CMake and ninja
-        uses: lukka/get-cmake@v3.27
+        uses: lukka/get-cmake@latest
+        with:
+          cmakeVersion: "~3.25.0"
 
       - name: Run CMake
         uses: lukka/run-cmake@main
