@@ -78,7 +78,6 @@ jobs:
           $vcpkgCommitId=$json.'builtin-baseline'
           Write-Host "vcpkg commit ID: $vcpkgCommitId"
           echo "VCPKG_GIT_COMMIT_ID=$vcpkgCommitId" | Out-File -FilePath $env:GITHUB_ENV -Append
-          [Environment]::SetEnvironmentVariable('CMAKE_POLICY_VERSION_MINIMUM', '3.5', [System.EnvironmentVariableTarget]::Process)
 
       - name: Get vcpkg commit id from vcpkg.json
         uses: lukka/run-vcpkg@main
@@ -92,6 +91,7 @@ jobs:
       - name: Run CMake
         uses: lukka/run-cmake@main
         with:
+          cmakeVersion: 3.31.1
           configurePreset: ${{ matrix.buildtype }}
           buildPreset: ${{ matrix.buildtype }}
 
