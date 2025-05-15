@@ -18,8 +18,8 @@
 #ifndef RME_DEFINITIONS_H_
 #define RME_DEFINITIONS_H_
 
-#define __W_RME_APPLICATION_NAME__ wxString("Mythbound Map Editor")
-#define __RME_APPLICATION_NAME__ std::string("Mythbound Map Editor")
+#define __W_RME_APPLICATION_NAME__ wxString("ADream Map Editor")
+#define __RME_APPLICATION_NAME__ std::string("ADream Map Editor")
 
 // Version info
 // xxyyzzt (major, minor, subversion)
