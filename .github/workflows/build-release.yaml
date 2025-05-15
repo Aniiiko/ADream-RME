@@ -91,7 +91,7 @@ jobs:
       - name: Run CMake
         uses: lukka/run-cmake@main
         with:
-          cmakeVersion: 3.31.1
+          cmakeVersion: '3.31.1'
           configurePreset: ${{ matrix.buildtype }}
           buildPreset: ${{ matrix.buildtype }}
 
