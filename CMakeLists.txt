@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.52)
+cmake_minimum_required(VERSION 3.31.1)
 
 project(cmake)
 
