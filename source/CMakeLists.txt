@@ -14,7 +14,7 @@ find_package(Threads REQUIRED)
 find_package(wxWidgets COMPONENTS html aui gl adv core net base CONFIG REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(pugixml CONFIG REQUIRED)
-find_package(Boost REQUIRED COMPONENTS spirit utility asio)
+find_package(Boost REQUIRED COMPONENTS thread spirit utility asio)
 find_package(LibArchive REQUIRED)
 
 option(TOGGLE_BIN_FOLDER "Use build/bin folder for generate compilation files" OFF)
