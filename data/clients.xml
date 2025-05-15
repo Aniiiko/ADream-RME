@@ -1,0 +1,29 @@
+<client_config>
+
+	<otbs>
+		<otb client="7.70" version="1" id="3"/>
+		<otb client="10.98" version="3" id="57"/>
+	</otbs>
+
+	<clients>
+		<client name="7.70" otb="7.70" default="true" visible="true" data_directory="770">
+			<otbm version="1"/>
+			<extensions from="7.70" to="7.70"/>
+			<data format="7.55" dat="0x439D5A33" spr="0x439852BE"/>
+		</client>
+
+		<client name="10.98" otb="10.98" default="false" visible="false" data_directory="materials">
+			<otbm version="3"/>
+			<extensions from="8.20 - 8.31" to="10.98"/>
+			<data format="10.57" dat="0x42A3" spr="0x57BBD603"/>
+		</client>
+	</clients>
+
+	<conversions>
+		<!-- Used by the editor to figure out when to run conversions -->
+		<convert after="760" using="760to740"/>
+		<convert before="810" using="800to810"/>
+		<convert at="854" using="854badto854"/>
+	</conversions>
+
+</client_config>

@@ -1,0 +1,64 @@
+# CMake
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+build/
+build.*/
+build-debug
+build-release
+CMakeLists.txt.user*
+
+# RME
+rme
+rme.cfg
+data/user
+data/assets/
+
+# exe and dll
+*.dll
+*.exe
+
+# assets
+*.spr
+*.dat
+
+# Visual Studio
+*.MAP
+*.user
+*.APS
+*.opensdf
+*.sdf
+*.suo
+*.obj
+*.db
+*.opendb
+
+vcproj/ipch/
+vcproj/Beta Release/
+vcproj/Debug/
+vcproj/Release/
+vcproj/x64/
+vcproj/Project/Beta Release/
+vcproj/Project/Debug/
+vcproj/Project/Release/
+vcproj/Project/x64/
+vcproj/Installer/Beta Release/
+vcproj/Installer/Debug/
+vcproj/Installer/Release/
+.vscode/
+
+# Xcode
+xcuserdata
+.DS_STORE
+
+# CLion
+.idea/
+cmake-build-debug/
+
+# Notepad++
+*.bak
+
+# Vcpkg
+vcpkg_installed/
+vcpkg/
+data/assets/items/items.otb
